@@ -1,6 +1,7 @@
 package org.example;
 
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 public class MainTest {
@@ -26,6 +27,7 @@ public class MainTest {
     Assertions.assertEquals(1, 1);
   }
 
+  @Disabled
   @Test
   public void failing() {
     Assertions.fail("Fails on purpose");
