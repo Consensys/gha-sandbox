@@ -25,4 +25,9 @@ public class MainTest {
   public void test4() {
     Assertions.assertEquals(1, 1);
   }
+
+  @Test
+  public void failing() {
+    Assertions.fail("Fails on purpose");
+  }
 }
